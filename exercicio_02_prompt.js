@@ -7,11 +7,11 @@
 */
 
 // Versão que pode ser utilizada em compiladores que possuem a interface prompt
-function passwordValid(password) {
-  if (parseInt(password) == 1234) return true
+function senhaValida(senha) {
+  if (parseInt(senha) == 1234) return true
   return false
 }
 
-let userPassword = prompt("Digite sua senha: ")
+let senha = prompt("Digite sua senha: ")
 
-passwordValid(userPassword) ? console.log("ACESSO PERMITIDO") : console.error("ACESSO NEGADO")
+senhaValida(senha) ? console.log("ACESSO PERMITIDO") : console.error("ACESSO NEGADO")
