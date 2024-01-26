@@ -3,7 +3,6 @@
     e “idade”, e as imprima. Exemplo: “Olá, meu nome é var1 e eu tenho var2 anos”.
 */
 
-
 let nome = String("Gabriel Faria Sferra");
 let idade = Number(20);
 
